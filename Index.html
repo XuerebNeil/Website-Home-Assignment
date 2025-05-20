@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Budget Travelers - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="logo">
+    <h1>Budget Travelers</h1>
+  </div>
+  <div class="welcome-message">
+    <h1>Welcome to Budget Travelers!</h1>
+    <p>Explore the world without breaking the bank</p>
+  </div>
+  <nav>
+    <ul>
+        <li><a href="home.html">🏠 Home</a></li>
+        <li><a href="destinations.html">🌍 Destinations</a></li>
+      </ul>
+  </nav>
+</header>
+
+<main class="grid-container">
+  <!-- Column 1: Welcome -->
+  <section class="grid-item">
+    <h2>Welcome</h2> <!-- Added a heading -->
+    <p>
+      Traveling has always been a passion of mine, but I quickly realized that adventure doesn’t have to come with a hefty price tag. I created Budget Travelers to inspire people like me—curious, resourceful, and eager to explore the world without breaking the bank. This website is a place where I can share my experiences, tips, and stories that prove travel can be accessible to everyone. Whether you're backpacking across Europe or just discovering hidden gems in your own city, there's always a way to explore smart.
+    </p>
+    <img src="images/selfie.jpg" alt="My Selfie" class="intro-img">
+    <details>
+      <summary>Why I built this website</summary>
+      <p>I created this travel website to share my love for adventure on a budget. I believe anyone can travel the world without spending too much!</p>
+    </details>
+  </section>
+
+  <!-- Column 2: My Recent Story -->
+  <section class="grid-item">
+    <h2>My Recent Story</h2>
+    <img src="images/story.jpg" alt="Recent Trip" class="story-img">
+    <p>
+      Last month, I ventured through the charming towns of northern Italy on a shoestring budget. From sipping espresso in local cafes to hiking the scenic Cinque Terre coast, every moment was filled with culture, connection, and awe. One highlight was finding a family-run hostel with breathtaking views that cost less than a dinner back home. This trip reminded me that the best stories often come from the most unexpected places.
+    </p>
+    <div class="social-icons">
+      <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+    </div>
+  </section>
+
+  <!-- Column 3: Subscribe Form -->
+  <section class="grid-item">
+    <h2>Subscribe to My Updates</h2>
+    <form method="get" action="mailto:subscribe@mtupdates.com">
+      <label for="interest">Choose Your Interest:</label>
+      <select id="interest" name="subject" required>
+        <option value="">--Select--</option>
+        <option value="weekly">Weekly Updates</option>
+        <option value="monthly">Monthly Updates</option>
+      </select>
+
+      <label for="name">Write Your Interest:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="message">Write Your Thoughts:</label>
+      <textarea id="message" name="body" required></textarea>
+
+      <input type="submit" value="Subscribe">
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Budget Travelers. All rights reserved. | Visitor #001</p>
+</footer>
+
+</body>
+</html>
